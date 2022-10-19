@@ -5,6 +5,7 @@ service CatalogService {
 entity Interactions_Header
     as projection on interactions.Interactions_Header;
 
+function sleep() returns Boolean;
 @requires: 'Admin'
 @restrict: [{ grant: 'READ', where: 'LANGU = ''DE'''}]
 entity Interactions_Items
