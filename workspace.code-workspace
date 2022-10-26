@@ -2,6 +2,9 @@
    "folders": [
       {
          "path": "products-service"
+      },
+      {
+         "path": ""
       }
    ],
    "settings": {
